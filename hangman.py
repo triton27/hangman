@@ -10,7 +10,7 @@ def hangman(word):
              "|               "
               ]
     rletters = list(word)
-    board = ["__"] * len(word)
+    board = ["_"] * len(word)
     win = False
     print("Welcome to Hangman")
     while wrong < len(stages) - 1:
